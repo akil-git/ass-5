@@ -82,7 +82,7 @@
 
 
     </header>
-    <main>
+    <main >
         <!-- Coupon & offer section  -->
 
 
@@ -223,23 +223,23 @@
                         <div class="grid grid-cols-2 mt-5">
                             <div class="mt-5">
                                 <div class="flex gap-10 ">
-                                    <button class="btn w-[110px] h-[56px]">A1</button>
-                                    <button class="btn w-[110px] h-[56px]">A2</button>
+                                    <button class="btn w-[110px] h-[56px]" class="seat" >A1</button>
+                                    <button class="btn w-[110px] h-[56px]" class="seat" >A2</button>
                                 </div>
                                 <div class="flex gap-10 mt-5  ">
-                                    <button class="btn w-[110px] h-[56px]">B1</button>
-                                    <button class="btn w-[110px] h-[56px]">B2</button>
+                                    <button class="btn w-[110px] h-[56px]" class="seat">B1</button>
+                                    <button class="btn w-[110px] h-[56px]" class="seat">B2</button>
                                 </div>
                             </div>
 
                             <div class="mt-5 ml-2">
                                 <div class="flex gap-10 ">
-                                    <button class="btn w-[110px] h-[56px]">A3</button>
-                                    <button class="btn w-[110px] h-[56px]">A4</button>
+                                    <button class="btn w-[110px] h-[56px]" class="seat">A3</button>
+                                    <button class="btn w-[110px] h-[56px]" class="seat">A4</button>
                                 </div>
                                 <div class="flex gap-10 mt-5  ">
-                                    <button class="btn w-[110px] h-[56px]">B3</button>
-                                    <button class="btn w-[110px] h-[56px]">B4</button>
+                                    <button class="btn w-[110px] h-[56px]"  class="seat">B3</button>
+                                    <button class="btn w-[110px] h-[56px]"  class="seat">B4</button>
                                 </div>
 
                             </div>
@@ -264,7 +264,7 @@
                                         <p class="font-medium text-base">Seat</p>
                                     </div>
                                     <div>
-                                        <span class="bg-[#1DD100] text-white rounded-sm " id="ticket-count">2</span>
+                                        <span class="bg-[#1DD100] text-white rounded-sm " id="ticket-count">0</span>
                                     </div>
                                 </div>
                                 <div class="font-medium text-base">
@@ -298,7 +298,7 @@
                             </div>
                             <hr>
                            
-                                <div class="flex gap-[215px]">
+                                <div class="flex gap-[215px] p-5">
                                     <div>
                                         <p class="font-medium text-base">Total price</p>
                                     </div>
@@ -309,11 +309,55 @@
                                         <p>BDT 1100</p>
                                     </div>
                                 </div>
+                                <label class="input flex items-center ">
+                                    <input type="text" class="w-[350px] h-[50px]" placeholder="Search" />
+                                    <button class="bg-[#1DD100] text-white w-[80px] h-[40px] rounded-lg">Apply</button>
+                                    
+                                  </label>
+                                  <div class="flex gap-[215px] p-8">
+                                    <div>
+                                        <p class="font-medium text-base">Grand total</p>
+                                    </div>
+
+
+
+                                    <div class="font-medium text-base">
+                                        <p>BDT 1100</p>
+                                    </div>
+                                </div>
                            
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text text-xl font-semibold">Passenger Name*</span>
+                                     
+                                    </div>
+                                    <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs" />
+                                   
+                                  </label>
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text text-xl font-semibold">Phone number*</span>
+                                     
+                                    </div>
+                                    <input type="number" placeholder="Enter your number" class="input input-bordered w-full max-w-xs" />
+                                   
+                                  </label>
+                                <label class="form-control w-full max-w-xs">
+                                    <div class="label">
+                                      <span class="label-text text-xl font-semibold">E-mail Id</span>
+                                     
+                                    </div>
+                                    <input type="email" placeholder="Enter your E-mail" class="input input-bordered w-full max-w-xs" />
+                                   
+                                  </label>
+                                  <button class="btn btn-wide mt-5 w-[330px] bg-[#1DD100] font-extrabold text-white" onclick="">Next</button>
+                                 <div class="mt-5 flex gap-5">
+                                    <a href="" class="text-[#03071299] font-normal text-base">Terms & conditions</a>
+                                    <a href="" class="text-[#03071299] font-normal text-base">Cancellation Policy</a>
+                                 </div>
 
 
-
-                            <!-- selected append child -->
+                            
 
 
                         </div>
@@ -328,5 +372,5 @@
 
     </footer>
 </body>
-
+<script src="script.js"></script>
 </html>
