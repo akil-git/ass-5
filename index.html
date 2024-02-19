@@ -61,17 +61,20 @@
 
 
 
-        <div class="hero w-[1171px] h-[550px] rounded-2xl  mx-[350px]" style="background-image: url(./images/banner.png)">
+        <div class="hero w-[1171px] h-[550px] rounded-2xl  flex items-center justify-center mx-[350px]"
+            style="background-image: url(./images/banner.png)">
 
             <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-lg">
                     <h1 class="mb-5 text-5xl font-extrabold"> <span class="text-[#FFFFFF]">End-to-End Travel with</span>
-                        <br> <span class="text-[#1DD100]">Volvo Paribahan</span></h1>
+                        <br> <span class="text-[#1DD100]">Volvo Paribahan</span>
+                    </h1>
                     <p class="mb-5 font-normal text-lg text-[#FFFFFF]">Welcome aboard our bus agency, where comfort
                         meets convenience on every journey. With a fleet of modern vehicles and a commitment to safety,
                         we ensure every passenger travels with peace of mind.</p>
-                    <button class="btn bg-[#1DD100] text-[#030712] w-44 h-16 border-none font-bold text-xl">Buy
-                        Tickets</button>
+                    <button class="btn bg-[#1DD100] text-[#030712] w-44 h-16 border-none font-bold text-xl"><a
+                            href="#ticket">Buy
+                            Tickets</a></button>
                 </div>
             </div>
         </div>
@@ -124,7 +127,7 @@
             <button class="btn btn-outline btn-success  w-44 h-16 text-[#1DD100] font-bold text-xl mt-16">See All
                 Offers</button>
         </div>
-        <section class=" bg-[#F7F8F8] border-[#1DD100] rounded-s-2xl justify-center mt-32">
+        <section class=" bg-[#F7F8F8] border-[#1DD100] rounded-s-2xl justify-center mt-32" id="ticket">
 
 
             <div class="p-32 ">
@@ -133,7 +136,7 @@
                     The volvo Travels is the best travel stop for the people who wants safe & perfect journey get your
                     tickets now !
                 </p>
-            </div> 
+            </div>
             <!-- parent div for the bus section -->
             <div class="bg-[url(./images/3.png)] bg-no-repeat bg-center rounded-3xl ">
                 <div>
@@ -146,10 +149,10 @@
                         <div class="mr-9">
                             <button class="btn bg-[#1DD10026] text-[#1DD100] font-medium text-lg">
                                 <img src="images/seat-green.png" alt="">
-                               <span id="seat-number">8</span> Seats left
-                              </button>
+                                <span id="seat-number">8</span> Seats left
+                            </button>
                         </div>
-                        <div >
+                        <div>
                             <img src="images/fare.png" alt="">
                             <p class="font-bold text-4xl">550Tk per seat</p>
                         </div>
@@ -162,8 +165,8 @@
                             <div>
                                 <p class="font-semibold text-lg text-[#030712]">Dhaka-Sylhet</p>
                             </div>
-                            
-                          
+
+
                         </div>
                         <div class="flex justify-center items-center p-7  gap-[350px]">
                             <div class="">
@@ -172,32 +175,152 @@
                             <div>
                                 <p class="font-semibold text-lg text-[#030712]">9:00 PM</p>
                             </div>
-                          
+
                         </div>
-                        
-                      <div class="flex items-center justify-center gap-2">
-                        <div class="flex justify-center">
-                            <button class="btn btn-wide bg-[#0307120D] ">Boarding Point - Laxmipur</button>
-            
+
+                        <div class="flex items-center justify-center gap-2">
+                            <div class="flex justify-center">
+                                <button class="btn btn-wide bg-[#0307120D] ">Boarding Point - Laxmipur</button>
+
+                            </div>
+
+                            <div class="flex justify-center">
+                                <button class="btn btn-wide bg-[#0307120D] ">Dropping Point - Bogura</button>
+
+                            </div>
+
+                            <div class="flex justify-center">
+                                <button class="btn w-[232px] bg-[#0307120D] ">Est. Time - 11 Hour</button>
+
+                            </div>
                         </div>
-                        
-                        <div class="flex justify-center">
-                            <button class="btn btn-wide bg-[#0307120D] ">Dropping Point - Bogura</button>
-            
-                        </div>
-                        
-                        <div class="flex justify-center">
-                            <button class="btn w-[232px] bg-[#0307120D] ">Est. Time - 11 Hour</button>
-            
-                        </div>
-                      </div>
-                      
-                       
+
+
                     </div>
                 </div>
-               
+
             </div>
-       
+            <!-- start of the ticket section -->
+
+            <div class="bg-[#FFFFFF] w-[1400px] h-[1100px] bg-center bg-no-repeat rounded-2xl m-auto mt-7">
+
+                <!-- main div of the two elements of ticket selection -->
+                <div class="flex gap-60">
+                    <!-- left div -->
+                    <div class="ml-5">
+                        <h2 class="font-semibold text-2xl p-8">Select Your Seat</h2>
+                        <!-- two chairs -->
+                        <div class="flex gap-[400px]">
+                            <div class="flex">
+                                <img src="images/seat-gray.png" alt="">
+                                <p class="font-medium text-lg text-[#03071280]">Available</p>
+                            </div>
+                            <div class="flex">
+                                <img src="images/seat-green-filled.png" alt="">
+                                <p class="font-medium text-lg text-[#1DD100]">Selected</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 mt-5">
+                            <div class="mt-5">
+                                <div class="flex gap-10 ">
+                                    <button class="btn w-[110px] h-[56px]">A1</button>
+                                    <button class="btn w-[110px] h-[56px]">A2</button>
+                                </div>
+                                <div class="flex gap-10 mt-5  ">
+                                    <button class="btn w-[110px] h-[56px]">B1</button>
+                                    <button class="btn w-[110px] h-[56px]">B2</button>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 ml-2">
+                                <div class="flex gap-10 ">
+                                    <button class="btn w-[110px] h-[56px]">A3</button>
+                                    <button class="btn w-[110px] h-[56px]">A4</button>
+                                </div>
+                                <div class="flex gap-10 mt-5  ">
+                                    <button class="btn w-[110px] h-[56px]">B3</button>
+                                    <button class="btn w-[110px] h-[56px]">B4</button>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <!-- right div -->
+                    <div>
+                        <h2 class="font-semibold text-2xl p-8">Select Your Seat</h2>
+                        <div class="bg-[#F7F8F8] w-[430px] h-[330px] rounded-xl">
+                            <div class="flex gap-28 p-9">
+                                <div class="flex">
+                                    <div>
+                                        <p class="font-medium text-base">Seat</p>
+                                    </div>
+                                    <div>
+                                        <span class="bg-[#1DD100] text-white rounded-sm " id="ticket-count">2</span>
+                                    </div>
+                                </div>
+                                <div class="font-medium text-base">
+                                    <p>class</p>
+                                </div>
+                                <div class="font-medium text-base">
+                                    <p>price</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-[123px] items-center justify-center">
+                                <div>
+                                    <p class="text-[#03071299] font-normal text-base"> C2</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#03071299] font-normal text-base"> economy</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#03071299] font-normal text-base">550</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-[123px] justify-center items-center">
+                                <div>
+                                    <p class="text-[#03071299] font-normal text-base"> C2</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#03071299] font-normal text-base"> economy</p>
+                                </div>
+                                <div>
+                                    <p class="text-[#03071299] font-normal text-base">550</p>
+                                </div>
+                            </div>
+                            <hr>
+                           
+                                <div class="flex gap-[215px]">
+                                    <div>
+                                        <p class="font-medium text-base">Total price</p>
+                                    </div>
+
+
+
+                                    <div class="font-medium text-base">
+                                        <p>BDT 1100</p>
+                                    </div>
+                                </div>
+                           
+
+
+
+                            <!-- selected append child -->
+
+
+                        </div>
+                    </div>
+
+
+
 
         </section>
     </main>
